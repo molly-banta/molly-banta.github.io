@@ -27,6 +27,10 @@ h3{
     /*font-family: Futura;*/
 }
 
+h3 small{
+    font-size: .8em;
+}
+
 .nav-bar{
     width: 90%;
     margin-left: 5%;
