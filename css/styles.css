@@ -1,0 +1,108 @@
+html {
+    font-family: Futura, sans-serif;
+    font-size: 13px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, serif;
+}
+
+h2{
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+small{
+    font-size: .6em;
+    font-family: Futura, sans-serif;
+    /*color: gray;*/
+}
+
+h3{
+    font-size: .5em;
+    margin: 0;
+    color: #55B0E6;
+    /*font-family: Futura;*/
+}
+
+.nav-bar{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 50px;
+    display: block;
+}
+
+#nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#nav li {
+    display: block;
+    position: relative;
+    margin: 5px;
+    background-color: ;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    padding: 5px 5px 5px 5px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+article{
+    width:80%;
+    margin-left:10%;
+    /*clear: right;*/
+    font-size:25px;
+}
+
+.align-left{
+    width:80%;
+    margin-left:10%;
+    float:left;
+}
+
+.align-right{
+    float: right;
+}
+
+/*.about-right{*/
+/*    float: right;*/
+/*}*/
+
+#molly-comp{
+   float: right;
+   width: 80%;
+   margin-right:-10%;
+   margin-left:20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    clear: right;
+    font-size:0;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+footer a img {
+    margin-top: 15px;
+}
