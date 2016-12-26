@@ -2,6 +2,7 @@ html {
     font-family: Futura, sans-serif;
     font-size: 13px;
     background-color: #FFFFFF;
+    color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -49,11 +50,17 @@ h3 small{
     display: block;
     position: relative;
     margin: 5px;
-    background-color: ;
+    /*background-color: ;*/
+}
+
+#nav li a:hover{
+    text-decoration: none;
+    color: gray;
 }
 
 .nav-left{
     float: left;
+    color: black;
 }
 
 .nav-right{
@@ -66,6 +73,7 @@ h3 small{
     height: 20px;
     text-decoration: none;
     text-align: center;
+    color: #000000;
 }
 
 article{
