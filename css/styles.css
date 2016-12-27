@@ -118,6 +118,11 @@ a{
     margin-bottom: 13px;
 }
 
+.about-page{
+    background-image: url("images/peru-sisters.JPG");
+    background-color: ##cccccc;
+}
+
 footer {
     clear: right;
     font-size:0;
