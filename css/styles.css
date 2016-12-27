@@ -112,6 +112,12 @@ a{
     text-decoration: none;
 }
 
+.resume-title{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 13px;
+}
+
 footer {
     clear: right;
     font-size:0;
