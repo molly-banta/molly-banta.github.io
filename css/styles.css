@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
 h2{
     font-size: 1em;
     margin: 0;
-    margin-bottom: 1em;
+    margin-bottom: .8em;
 }
 
 small{
@@ -22,14 +22,14 @@ small{
 }
 
 h3{
-    font-size: .5em;
+    font-size: .6em;
     margin: 0;
     color: #55B0E6;
     /*font-family: Futura;*/
 }
 
 h3 small{
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .nav-bar{
@@ -80,7 +80,11 @@ article{
     width:80%;
     margin-left:10%;
     /*clear: right;*/
-    font-size:25px;
+    font-size:2em;
+}
+
+.education{
+    text-align: right;
 }
 
 .align-left{
