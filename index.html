@@ -6,65 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome!</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-        <nav class="nav-bar">
+    <nav class="nav-bar">
 
-            <script>
-                $(document).ready(function () {
-                    $('#nav li').hover(
-                        function () {
-                            //show submenu
-                            $('ul', this).show();
-                        }, function () {
-                            //hide submenu
-                            $('ul', this).hide();
-                        });
-                });
-            </script>
+        <script>
+            $(document).ready(function() {
+                $('#nav li').hover(
+                    function() {
+                        //show submenu
+                        $('ul', this).show();
+                    },
+                    function() {
+                        //hide submenu
+                        $('ul', this).hide();
+                    });
+            });
+        </script>
 
-            <ul id="nav">
-                <li class="nav-left">
-                    <a href="index.html">Molly Banta</a>
-                </li>
-                
-                <li class="nav-right">
-                    <a href="about.html">About</a>
-                </li>
+        <ul id="nav">
 
-                <li class="nav-right">
-                    <a href="resume.html">Resumé</a>
-                    <!--<ul>-->
-                    <!--    <li><a href="resume.html">Experience</a></li>-->
-                    <!--    <li><a href="resume.html">Education</a></li>-->
-                    <!--    <li><a href="resume.html">Extracurriculars</a></li>-->
-                    <!--</ul>-->
-                </li>
-            </ul>
+            <li class="nav-left">
+                <a href="index.html">Molly Banta</a>
+            </li>
 
-        </nav>
-        
-        <article>   
-        
-        <!--welcome <br> bienvenue <br>  السلام عليكم<br> "Hello World!"-->
-        
-        </article>
-        
-            <img id="molly-comp" src="images/molly-computer.jpg" alt="Molly With A Computer">
+            <li class="nav-right">
+                <a href="about.html">About</a>
+            </li>
 
-        
-        <footer>
-            
-            <a href="http://instagram.com/mollay_banter/"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2016/240/iconmonstr-instagram-12.png" alt="Instagram" height="40" width="40" </a>
+            <li class="nav-right">
+                <a href="resume.html">Resumé</a>
+                <ul>
+                    <li><a href="resume.html#Experience">Experience</a></li>
+                    <li><a href="resume.html#Education">Education</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+
+    <article>
+
+    </article>
+
+    <img id="molly-comp" src="images/molly-computer.jpg" alt="Molly With A Computer">
+
+
+    <footer>
+
+        <a href="http://instagram.com/mollay_banter/"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2016/240/iconmonstr-instagram-12.png" alt="Instagram" height="40" width="40" </a>
             <a href="http://twitter.com/molly_banta"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-twitter-2.png" alt="Twitter" height="40" width="40" </a>
-            <a href="http://www.linkedin.com/in/mollybanta/"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-2.png" alt="LinkedIN" height="40" width="40" </a>
-            <a href="http://github.com/molly-banta"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-github-2.png" alt="github" height="40" width="40" </a>
-        </footer>
+                <a href="http://www.linkedin.com/in/mollybanta/"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-2.png" alt="LinkedIN" height="40" width="40" </a>
+                    <a href="http://github.com/molly-banta"> <img src="http://cdn.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-github-2.png" alt="github" height="40" width="40" </a>
+    </footer>
 
 
 </body>

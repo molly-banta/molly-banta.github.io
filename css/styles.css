@@ -76,6 +76,26 @@ h3 small{
     color: #000000;
 }
 
+#nav ul{
+    position: absolute;
+    display: none;
+    margin: -4px;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li{
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#nav ul a{
+    display: block;
+    height: 10px;
+    text-align: left;
+}
+
 article{
     width:80%;
     margin-left:10%;
