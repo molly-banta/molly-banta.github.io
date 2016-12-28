@@ -140,6 +140,10 @@ a{
     margin-bottom: 13px;
 }
 
+.clip-title a{
+    margin-bottom: 10px;
+}
+
 footer {
     clear: right;
     font-size:0;
