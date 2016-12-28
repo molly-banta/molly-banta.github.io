@@ -65,6 +65,7 @@ h3 small{
 
 .nav-right{
     float: right;
+    color: black;
 }
 
 #nav li a {
@@ -130,17 +131,13 @@ article{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .resume-title{
     font-size: 13px;
     display: block;
     margin-bottom: 13px;
-}
-
-.about-page{
-    background-image: url("images/peru-sisters.JPG");
-    background-color: ##cccccc;
 }
 
 footer {
