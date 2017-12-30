@@ -134,6 +134,11 @@ a{
     color: black;
 }
 
+a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
 .resume-title{
     font-size: 13px;
     display: block;
