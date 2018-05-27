@@ -139,6 +139,14 @@ a:hover{
     color: gray;
 }
 
+.footer-disclaimer{
+    font-size: 10px;
+    display: block;
+    margin-bottom: 13px;
+    margin-left:30%;
+    margin-right:30%;
+}
+
 .resume-title{
     font-size: 13px;
     display: block;
